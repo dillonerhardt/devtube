@@ -124,5 +124,70 @@
     "description": "I'm a software developer who makes videos about React, React Native, GraphQL, Typescript, Node.js, PostgreSQL, Python, and all things coding.",
     "thumbnail": "https://yt3.ggpht.com/-_wFhQPqAkWg/AAAAAAAAAAI/AAAAAAAAAAA/VjFjMDtSj7E/s800-c-k-no-mo-rj-c0xffffff/photo.jpg",
     "channelId": "UC-8QAzbLcRglXeN_MY9blyw"
+  },
+  {
+    "name": "",
+    "description": "",
+    "thumbnail": "",
+    "channelId": "UC2WHjPDvbE6O328n17ZGcfg"
+  },
+  {
+    "name": "ForrestKnight",
+    "description": "My main topics from here on out - Artificial Intelligence & Machine Learning. Leave a comment on my latest video with a game you want beaten by my ai.",
+    "thumbnail": "https://yt3.ggpht.com/-Q466Wj9hZ9o/AAAAAAAAAAI/AAAAAAAAAAA/MwR5YTb5f_A/s800-c-k-no-mo-rj-c0xffffff/photo.jpg",
+    "channelId": "UC2WHjPDvbE6O328n17ZGcfg"
+  },
+  {
+    "name": "Andy Sterkowitz",
+    "thumbnail": "https://yt3.ggpht.com/-ARaJr9SvXJY/AAAAAAAAAAI/AAAAAAAAAAA/CJ81u7KRcPw/s800-c-k-no-mo-rj-c0xffffff/photo.jpg",
+    "channelId": "UCZ9qFEC82qM6Pk-54Q4TVWA"
+  },
+  {
+    "name": "Program With Erik",
+    "description": "My name is Erik Hanchett and I'm a web and Java developer from Reno, Nevada. I've been a programmer for many years now and I've always been wanting to ...",
+    "thumbnail": "https://yt3.ggpht.com/-rRoXNC4Vjls/AAAAAAAAAAI/AAAAAAAAAAA/KIAwD1XIjVE/s800-c-k-no-mo-rj-c0xffffff/photo.jpg",
+    "channelId": "UCshZ3rdoCLjDYuTR_RBubzw"
+  },
+  {
+    "name": "Andre Madarang",
+    "description": "Greetings! My name is Andre Madarang and I'm a Web Developer who enjoys coding for the web. I post practical web development tutorials primarily in Laravel ...",
+    "thumbnail": "https://yt3.ggpht.com/-opQfIA46Va4/AAAAAAAAAAI/AAAAAAAAAAA/LaHIWNT-bNE/s800-c-k-no-mo-rj-c0xffffff/photo.jpg",
+    "channelId": "UCtb40EQj2inp8zuaQlLx3iQ"
+  },
+  {
+    "name": "Codú Community",
+    "description": "Hey, I am Niall, the owner of Codú! I'm a web developer, mentor and a business owner in Dublin, Ireland. Join us for tutorials and workshops on web ...",
+    "thumbnail": "https://yt3.ggpht.com/-3kFQEFV1_aw/AAAAAAAAAAI/AAAAAAAAAAA/D5moBIN3tpE/s800-c-k-no-mo-rj-c0xffffff/photo.jpg",
+    "channelId": "UCvI5azOD4eDumpshr00EfIw"
+  },
+  {
+    "name": "Nayyar Shaikh",
+    "description": "Hey Friend, Thank You For Being Here, A Place Where You Can Learn 1.How To Create a Beautiful, Super Customizable Website Using WordPress. 2.How To ...",
+    "thumbnail": "https://yt3.ggpht.com/-S1oQ2QGLfDQ/AAAAAAAAAAI/AAAAAAAAAAA/ylvHxQCt0iM/s800-c-k-no-mo-rj-c0xffffff/photo.jpg",
+    "channelId": "UCVgHeVqf7aIlqXQtB83v4sw"
+  },
+  {
+    "name": "Jason Lengstorf",
+    "description": "Jason Lengstorf is a developer, designer, author, and friendly bear. He focuses on work-life balance, efficiency, processes, and productivity to help people get ...",
+    "thumbnail": "https://yt3.ggpht.com/-2Fs1c_w-W7M/AAAAAAAAAAI/AAAAAAAAAAA/sj_sf-DfOmw/s800-c-k-no-mo-rj-c0xffffff/photo.jpg",
+    "channelId": "UCnty0z0pNRDgnuoirYXnC5A"
+  },
+  {
+    "name": "Gaurav Sen",
+    "description": "Algorithms and System Design is a powerful combination! Here are some things I talk about: 1) Competitive programming 2) System design 3) Artificial ...",
+    "thumbnail": "https://yt3.ggpht.com/-3yXCBzwvROk/AAAAAAAAAAI/AAAAAAAAAAA/3JIX0IjmkA4/s800-c-k-no-mo-rj-c0xffffff/photo.jpg",
+    "channelId": "UCRPMAqdtSgd0Ipeef7iFsKw"
+  },
+  {
+    "name": "CodeWithHarry",
+    "description": "Code With Harry is my attempt to teach basics and those coding techniques to people in short time which took me ages to learn. At Code With Harry, I provide a ...",
+    "thumbnail": "https://yt3.ggpht.com/-cqEZFzpc1II/AAAAAAAAAAI/AAAAAAAAAAA/LLeXH6NMR20/s800-c-k-no-mo-rj-c0xffffff/photo.jpg",
+    "channelId": "UCeVMnSShP_Iviwkknt83cww"
+  },
+  {
+    "name": "Tech With Tim",
+    "description": "Python Programming, Game Development, Pygame, Java Tutorials and Machine Learning. This is a list of a few of the things I love to post on my channel.",
+    "thumbnail": "https://yt3.ggpht.com/-xtpLBcJk6FY/AAAAAAAAAAI/AAAAAAAAAAA/Le5zUzKwHDU/s800-c-k-no-mo-rj-c0xffffff/photo.jpg",
+    "channelId": "UC4JX40jDee_tINbkjycV4Sg"
   }
 ]
