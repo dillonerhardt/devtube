@@ -11,10 +11,7 @@ export default function Channel({ thumbnail, name, channelId, description }) {
         />
       )}
       <h3 className="font-semibold text-xl mt-2">{name}</h3>
-      <div
-        className={`flex flex-grow flex-col items-center ${!open &&
-          "hide-mobile"}`}
-      >
+      <div className="flex flex-grow flex-col items-center">
         {description && (
           <p className="flex-grow text-center text-gray-600 mt-2 mb-3">
             {description}
