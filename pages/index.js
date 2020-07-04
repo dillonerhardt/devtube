@@ -7,10 +7,10 @@ export default function Home() {
   const refinedChannels = useMemo(
     () =>
       channels.filter(
-        c =>
+        (c) =>
           search === "" ||
-          (c.name.toLowerCase().includes(search.toLowerCase()) ||
-            c.description.toLowerCase().includes(search.toLowerCase()))
+          c.name.toLowerCase().includes(search.toLowerCase()) ||
+          c.description?.toLowerCase().includes(search.toLowerCase())
       ),
     [search]
   );
@@ -33,7 +33,7 @@ export default function Home() {
       </div>
 
       <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
-        {refinedChannels.slice(0, 10).map((c, i) => (
+        {refinedChannels.slice(0, 12).map((c, i) => (
           <Channel key={`channel-${c.name}-${i}`} {...c} />
         ))}
       </div>
