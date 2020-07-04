@@ -1,5 +1,6 @@
 import { useState, useMemo } from "react";
 import channels from "../data/channels.json";
+import Channel from "../components/Channel";
 
 export default function Home() {
   const [search, setSearch] = useState("");
@@ -28,23 +29,8 @@ export default function Home() {
       </div>
 
       <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
-        {refinedChannels.map((c, i) => (
-          <a
-            key={`channel-${c.name}-${i}`}
-            href={`https://www.youtube.com/channel/${c.channelId}`}
-            className="w-full p-2 py-5 border border-gray-200 shadow-md bg-white mb-3 flex flex-col items-center rounded hover:bg-teal-500 text-gray-800 transition ease-in-out duration-300 hover:text-white"
-          >
-            {c.thumbnail && (
-              <img
-                className="rounded-full"
-                alt={`${c.name} logo`}
-                height={64}
-                width={64}
-                src={c.thumbnail}
-              />
-            )}
-            <h3 className="font-semibold text-xl mt-2">{c.name}</h3>
-          </a>
+        {refinedChannels.slice(0, 10).map((c, i) => (
+          <Channel key={`channel-${c.name}-${i}`} {...c} />
         ))}
       </div>
     </div>
