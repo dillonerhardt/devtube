@@ -2,7 +2,7 @@
 @tailwind components;
 
 .btn-primary {
-  @apply bg-teal-500 text-white font-bold py-2 px-4 rounded;
+  @apply bg-teal-600 text-white font-bold py-2 px-4 rounded;
 }
 
 input {
