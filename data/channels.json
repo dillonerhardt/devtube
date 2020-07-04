@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Traversy Media",
+    "logo": "https://yt3.ggpht.com/a/AATXAJw6qBlNzbAweKz7UlC44hYLoEtdoXGmzN8IJno3mg=s288-c-k-c0xffffffff-no-rj-mo",
+    "link": "https://www.youtube.com/user/TechGuyWeb"
+  },
+  {
+    "name": "Freecodecamp",
+    "logo": "https://yt3.ggpht.com/a/AATXAJwFt03RAznOsPwlfo5c1kW1rp-1o3Xgpw9MNreQMQ=s176-c-k-c0x00ffffff-no-rj-mo",
+    "link": "https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ"
+  },
+  {
+    "name": "The Net Ninja",
+    "logo": "http://yt3.ggpht.com/a/AATXAJwx4nhIEwFU_ZFJDGNZa0omzcVUz5MfzecVtRnr=s176-c-k-c0x00ffffff-no-rj-mo",
+    "link": "https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg"
+  },
+  {
+    "name": "CS50",
+    "logo": "http://yt3.ggpht.com/a/AATXAJws9PHgNERgzfu5yP-Y5yfWXCIdouXa7uWv-_UfvA=s176-c-k-c0x00ffffff-no-rj-mo",
+    "link": "https://www.youtube.com/user/cs50tv"
+  }
+]
