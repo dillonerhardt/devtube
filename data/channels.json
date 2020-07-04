@@ -1,22 +1,68 @@
 [
   {
     "name": "Traversy Media",
-    "logo": "https://yt3.ggpht.com/a/AATXAJw6qBlNzbAweKz7UlC44hYLoEtdoXGmzN8IJno3mg=s288-c-k-c0xffffffff-no-rj-mo",
-    "link": "https://www.youtube.com/user/TechGuyWeb"
+    "description": "Traversy Media features the best online web development and programming tutorials for all of the latest web technologies including Node.js, Angular 2, React.js, ...",
+    "thumbnail": "https://yt3.ggpht.com/-OsgBxXITFdg/AAAAAAAAAAI/AAAAAAAAAAA/gDaUV_aSb2Q/s88-c-k-no-mo-rj-c0xffffff/photo.jpg",
+    "channelId": "UC29ju8bIPH5as8OGnQzwJyA"
   },
   {
-    "name": "Freecodecamp",
-    "logo": "https://yt3.ggpht.com/a/AATXAJwFt03RAznOsPwlfo5c1kW1rp-1o3Xgpw9MNreQMQ=s176-c-k-c0x00ffffff-no-rj-mo",
-    "link": "https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ"
+    "name": "freeCodeCamp.org",
+    "description": "We're an open source community of busy people who learn to code and build projects for nonprofits.",
+    "thumbnail": "https://yt3.ggpht.com/-bWUaHwGz7To/AAAAAAAAAAI/AAAAAAAAAAA/xEUD6X5iT2Y/s88-c-k-no-mo-rj-c0xffffff/photo.jpg",
+    "channelId": "UC8butISFwT-Wl7EV0hUK0BQ"
   },
   {
     "name": "The Net Ninja",
-    "logo": "http://yt3.ggpht.com/a/AATXAJwx4nhIEwFU_ZFJDGNZa0omzcVUz5MfzecVtRnr=s176-c-k-c0x00ffffff-no-rj-mo",
-    "link": "https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg"
+    "description": "Black-belt your development skills. Tutorials on: - Modern JavaScript (beginner to advanced) - Node.js - React - Vue.js - Firebase - MongoDB - HTML & CSS ...",
+    "thumbnail": "https://yt3.ggpht.com/--JVzzRDG2ME/AAAAAAAAAAI/AAAAAAAAAAA/Q-LECA0Cxb8/s88-c-k-no-mo-rj-c0xffffff/photo.jpg",
+    "channelId": "UCW5YeuERMmlnqo4oq8vwUpg"
   },
   {
     "name": "CS50",
-    "logo": "http://yt3.ggpht.com/a/AATXAJws9PHgNERgzfu5yP-Y5yfWXCIdouXa7uWv-_UfvA=s176-c-k-c0x00ffffff-no-rj-mo",
-    "link": "https://www.youtube.com/user/cs50tv"
+    "description": "This is CS50, Harvard University's introduction to the intellectual enterprises of computer science and the art of programming. Demanding, but definitely doable.",
+    "thumbnail": "https://yt3.ggpht.com/-NLNsIL5GXYw/AAAAAAAAAAI/AAAAAAAAAAA/grAtLVgbRZ0/s88-c-k-no-mo-rj-c0xffffff/photo.jpg",
+    "channelId": "UCcabW7890RKJzL968QWEykA"
+  },
+  {
+    "name": "sentdex",
+    "description": "Python Programming tutorials, going further than just the basics. Learn about machine learning, finance, data analysis, robotics, web development, game ...",
+    "thumbnail": "https://yt3.ggpht.com/-kHTbb6oDqmY/AAAAAAAAAAI/AAAAAAAAAAA/BHWd_jlJmJU/s88-c-k-no-mo-rj-c0xffffff/photo.jpg",
+    "channelId": "UCfzlCWGWYyIQ0aLC5w48gBQ"
+  },
+  {
+    "name": "DesignCourse",
+    "description": "https://coursetro.com New videos weekly from Monday to Thursday @ 10:30 AM ET! Hi, I'm Gary. I've created close to 100 courses from graphic design to ...",
+    "thumbnail": "https://yt3.ggpht.com/-aG9Fhs8oDSs/AAAAAAAAAAI/AAAAAAAAAAA/FgPzEXHXIOQ/s88-c-k-no-mo-rj-c0xffffff/photo.jpg",
+    "channelId": "UCVyRiMvfUNMA1UPlDPzG5Ow"
+  },
+  {
+    "name": "Red Stapler",
+    "description": "How to and tutorial videos of cool CSS effect, Web Design ideas, JavaScript libraries, Node.js, HTML, dev tips and much more! New videos upload weekly.",
+    "thumbnail": "https://yt3.ggpht.com/-waeolvpx4EI/AAAAAAAAAAI/AAAAAAAAAAA/Ji7c6qwPo0E/s88-c-k-no-mo-rj-c0xffffff/photo.jpg",
+    "channelId": "UCRthRrv06q1iOl86-tTKJhg"
+  },
+  {
+    "name": "Kevin Powell",
+    "description": "Helping you learn how to make the web, and make it look good while you're at it. With a new video every Wednesday, I'll be bringing you How Tos and Tutorials, ...",
+    "thumbnail": "https://yt3.ggpht.com/-1vSRbjNhc6o/AAAAAAAAAAI/AAAAAAAAAAA/bYkBiLkzUbs/s88-c-k-no-mo-rj-c0xffffff/photo.jpg",
+    "channelId": "UCJZv4d5rbIKd4QHMPkcABCw"
+  },
+  {
+    "name": "codeSTACKr",
+    "description": "I create the best content I possibly can to give away free. My tutorials are generally about web development and include coding languages such as HTML, CSS, ...",
+    "thumbnail": "https://yt3.ggpht.com/-JcL1H9vvtcQ/AAAAAAAAAAI/AAAAAAAAAAA/CtHft7jENak/s88-c-k-no-mo-rj-c0xffffff/photo.jpg",
+    "channelId": "UCDCHcqyeQgJ-jVSd6VJkbCw"
+  },
+  {
+    "name": "Dev Ed",
+    "description": "Learn web development, web design, 3d modelling, tools like figma and more without getting bored! The goes of this channel is to get you to become as creative ...",
+    "thumbnail": "https://yt3.ggpht.com/-7F67j_6rT28/AAAAAAAAAAI/AAAAAAAAAAA/ba_uBz9O8tw/s88-c-k-no-mo-rj-c0xffffff/photo.jpg",
+    "channelId": "UClb90NQQcskPUGDIXsQEz5Q"
+  },
+  {
+    "name": "Web Dev Simplified",
+    "description": "Web Dev Simplified is all about teaching web development skills and techniques in an efficient and practical manner. If you are just getting started in web ...",
+    "thumbnail": "https://yt3.ggpht.com/-teG1J6QQgEc/AAAAAAAAAAI/AAAAAAAAAAA/5YcAZ-Qham4/s88-c-k-no-mo-rj-c0xffffff/photo.jpg",
+    "channelId": "UCFbNIlppjAuEX4znoulh0Cw"
   }
 ]

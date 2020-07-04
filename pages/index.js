@@ -31,16 +31,16 @@ export default function Home() {
         {refinedChannels.map((c, i) => (
           <a
             key={`channel-${c.name}-${i}`}
-            href={c.link}
+            href={`https://www.youtube.com/channel/${c.channelId}`}
             className="w-full p-2 py-5 border border-gray-200 shadow-md bg-white mb-3 flex flex-col items-center rounded hover:bg-teal-500 text-gray-800 transition ease-in-out duration-300 hover:text-white"
           >
-            {c.logo && (
+            {c.thumbnail && (
               <img
                 className="rounded-full"
                 alt={`${c.name} logo`}
                 height={64}
                 width={64}
-                src={c.logo}
+                src={c.thumbnail}
               />
             )}
             <h3 className="font-semibold text-xl mt-2">{c.name}</h3>
