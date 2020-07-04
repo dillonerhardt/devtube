@@ -8,7 +8,9 @@ export default function Home() {
     () =>
       channels.filter(
         c =>
-          search === "" || c.name.toLowerCase().includes(search.toLowerCase())
+          search === "" ||
+          (c.name.toLowerCase().includes(search.toLowerCase()) ||
+            c.description.toLowerCase().includes(search.toLowerCase()))
       ),
     [search]
   );
