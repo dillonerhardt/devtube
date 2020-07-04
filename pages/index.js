@@ -20,10 +20,8 @@ export default function Home() {
         Find a channel
       </h1>
       <div className="mb-5">
-        <label hidden htmlFor="channelSearch">
-          Channel search
-        </label>
         <input
+          aria-label="Search channels"
           id="channelSearch"
           value={search}
           onChange={({ target }) => setSearch(target.value)}
