@@ -33,6 +33,11 @@ function App({ Component, pageProps }) {
           name="description"
           content="Find great Youtube channels that cover topics from web design to software engineering for all levels."
         />
+        <meta property="og:title" content="Find developer YouTube channels" />
+        <meta
+          property="og:image"
+          content="https://devtubes.now.sh/banner.png"
+        />
         <link
           rel="apple-touch-icon"
           sizes="57x57"
