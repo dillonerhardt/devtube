@@ -1,3 +1,5 @@
+import * as Fathom from "fathom-client";
+
 export default function Channel({ thumbnail, name, channelId, description }) {
   return (
     <div className="w-full p-2 py-5 border border-gray-200 shadow-md bg-white mb-3 flex flex-col items-center rounded text-gray-800">
@@ -18,6 +20,7 @@ export default function Channel({ thumbnail, name, channelId, description }) {
         </p>
         <a
           className="btn-primary"
+          onClick={() => Fathom.trackGoal("ZVZPJA8J", 0)}
           href={`https://www.youtube.com/channel/${channelId}`}
         >
           Visit channel
