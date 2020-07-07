@@ -1,12 +1,14 @@
 import { useState, useMemo, useEffect } from "react";
+import { useRouter } from "next/router";
+import Router from "next/router";
 import channels from "../data/channels.json";
 import Channel from "../components/Channel";
 
 const DEFAULT_NUM_CHANNELS = 12;
 
-export default function Home() {
+function Home({ searchTerm }) {
   const [channelsShown, setChannelsShown] = useState(DEFAULT_NUM_CHANNELS);
-  const [search, setSearch] = useState("");
+  const [search, setSearch] = useState(() => searchTerm || "");
   const refinedChannels = useMemo(
     () =>
       channels.filter(
@@ -17,7 +19,20 @@ export default function Home() {
       ),
     [search]
   );
-  useEffect(() => setChannelsShown(DEFAULT_NUM_CHANNELS), [search]);
+  useEffect(() => {
+    if (channelsShown !== DEFAULT_NUM_CHANNELS)
+      setChannelsShown(DEFAULT_NUM_CHANNELS);
+    let currentUrlParams = new URLSearchParams(window.location.search);
+    if (search === "") currentUrlParams.delete("q");
+    else currentUrlParams.set("q", search);
+    Router.replace(
+      `${window.location.pathname}${
+        currentUrlParams.toString() !== ""
+          ? "?" + currentUrlParams.toString()
+          : ""
+      }`
+    );
+  }, [search]);
   return (
     <div className="p-6">
       <h1 className="text-3xl leading-9 font-extrabold tracking-tight text-gray-800 sm:text-3xl sm:leading-10 mb-4">
@@ -54,3 +69,9 @@ export default function Home() {
     </div>
   );
 }
+
+Home.getInitialProps = ({ query }) => {
+  return { searchTerm: query.q };
+};
+
+export default Home;
